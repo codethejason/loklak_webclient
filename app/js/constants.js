@@ -1,6 +1,8 @@
 'use strict';
 
-var fs = require('fs');
-var AppSettings=JSON.parse(fs.readFileSync('custom_configFile.json', 'utf8'));
+require('rootpath')();
+var configFile = require("custom_configFile.json");
+
+var AppSettings=configFile;
 
 module.exports = AppSettings;

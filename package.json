@@ -82,7 +82,9 @@
     "moment": "^2.10.2",
     "ng-tags-input": "^2.3.0",
     "sync-request": "^2.0.1",
-    "twitter-text": "^1.12.0"
+    "twitter-text": "^1.12.0",
+    "rootpath": "^0.1.2",
+    "chai": "^3.4.1"
   },
   "browserify-shim": {
     "jQuery": "global:$",
